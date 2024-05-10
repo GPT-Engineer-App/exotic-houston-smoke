@@ -30,7 +30,7 @@ const Index = () => {
             <Image src="https://example.com/path-to-your-logo.jpg" alt="Exotic Hibrid Logo" boxSize="100%" objectFit="cover" />
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Input placeholder="Enter your email for updates" size="md" />
-              <Button colorScheme="teal" size="md">
+              <Button bgColor="red.600" color="white" size="md">
                 Subscribe
               </Button>
             </Stack>
