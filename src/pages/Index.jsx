@@ -18,11 +18,6 @@ const Index = () => {
             <Button leftIcon={<FaUserCircle />}>Products</Button>
             <Button leftIcon={<FaUserCircle />}>Updates</Button>
           </VStack>
-          <VStack p={5} spacing={4} align="stretch">
-            <IconButton aria-label="Admin Portal" icon={<FaUserLock />} size="lg" isRound={true} />
-            <IconButton aria-label="Customer Portal" icon={<FaUserCircle />} size="lg" isRound={true} />
-            <Button leftIcon={<FaEnvelope />}>Subscribe</Button>
-          </VStack>
         </Box>
 
         {/* Main Content Area */}
@@ -32,7 +27,7 @@ const Index = () => {
               Exotic Hibrid
             </Heading>
             <Text fontSize="md">Houston's premier destination for exotic smoking accessories, trendy clothing, and unique snacks and beverages.</Text>
-            <Image src="https://images.unsplash.com/photo-1583946097887-6b1d9d0b8dd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxleG90aWMlMjBzbW9rZSUyMHNob3B8ZW58MHx8fHwxNzE1MzYxNTU4&ixlib=rb-4.0.3&q=80&w=1080" alt="Exotic Smoke Shop Interior" boxSize="100%" objectFit="cover" />
+            <Image src="https://example.com/path-to-your-logo.jpg" alt="Exotic Hibrid Logo" boxSize="100%" objectFit="cover" />
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Input placeholder="Enter your email for updates" size="md" />
               <Button colorScheme="teal" size="md">
