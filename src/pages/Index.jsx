@@ -2,8 +2,8 @@ import { Box, Button, Container, Flex, Heading, IconButton, Image, Input, Stack,
 import { FaEnvelope, FaInstagram, FaTwitter, FaUserCircle, FaUserLock } from "react-icons/fa";
 
 const Index = () => {
-  const bg = useColorModeValue("gray.50", "gray.800");
-  const color = useColorModeValue("gray.800", "white");
+  const bg = useColorModeValue("brand.800", "brand.900");
+  const color = useColorModeValue("brand.700", "brand.800");
 
   return (
     <Container maxW="container.xl" p={0}>
